@@ -1,0 +1,48 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.csproj.user
+*.pidb
+*.suo
+*.vspx
+*.vspscc
+*.vssscc
+
+# Ignore Rider specific files
+.idea/
+*.sln.iml
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore build results
+Build/
+[Tt]emp/
+
+# Ignore publish outputs
+publish/
+*.publish.xml
+
+# Ignore .NET Core tooling artifacts
+project.lock.json
+project.assets.json
+
+# Ignore Markdown files
+*.md
+
+#Ignore env File
+*.env
