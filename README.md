@@ -56,11 +56,11 @@ Use the following commands to build and run the project:
 
 ```bash
 dotnet build
-dotnet run
+dotnet run search [website to be searched]
 ```
 
 ### 6. Usage
-Once running, enter your research queries in the application, and the AI will generate responses to assist with your research.
+You can change the prompt to tailor it to your needs by updating the systemPrompt variable in MarkdownService.cs.
 
 ## Contributing
 Contributions are welcome! Please follow the standard GitHub workflow for pull requests.
@@ -69,6 +69,6 @@ Contributions are welcome! Please follow the standard GitHub workflow for pull r
 This project is licensed under the MIT License.
 
 ## Support
-For questions or issues, please open an issue in the repository or contact [your-email@example.com].
+For questions or issues, please open an issue in the repository.
 
 Happy researching! 📚🤖
